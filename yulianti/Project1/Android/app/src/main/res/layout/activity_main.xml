@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abstrac"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="23dp"
+            android:id="@+id/judul"
+            android:text="Komponen Pemrograman Android"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:background="#999999"
+            android:textStyle="bold"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="25dp"
+                android:text="Activity"
+                android:textColor="#ffffff"
+                android:background="#b3fd9bcb"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginRight="5dp"
+                android:fontFamily="sans-serif"
+                />
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="25dp"
+                android:text="Service"
+                android:textColor="#ffffff"
+                android:background="#b3fd9bcb"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="120dp"
+                android:layout_height="50pt"
+                android:layout_marginLeft="25dp"
+                android:src="@drawable/activitys2"
+                />
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="160dp"
+                android:layout_height="50pt"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/services"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="35dp"
+                android:text="click me"
+                android:layout_marginRight="18dp"
+                android:layout_marginLeft="7dp"
+                android:id="@+id/activity"
+                android:textColor="#FF0000"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btn_rnd"
+                />
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="35dp"
+                android:text="click me"
+                android:layout_marginLeft="14dp"
+                android:id="@+id/service"
+                android:textColor="#FF0000"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btn_rnd"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="25dp"
+                android:text="Brodcast Receiver"
+                android:textColor="#ffffff"
+                android:background="#b3fd9bcb"
+                android:textAlignment="center"
+                android:layout_marginRight="5dp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="25dp"
+                android:text="Content Provider"
+                android:textColor="#ffffff"
+                android:background="#b3fd9bcb"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="160dp"
+                android:layout_height="50pt"
+                android:src="@drawable/brodcast"
+                />
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="160dp"
+                android:layout_height="50pt"
+                android:src="@drawable/content"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="20dp"
+                android:text="Click me"
+                android:id="@+id/broadcast_receiver"
+                android:textColor="#FF0000"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btn_rnd"/>
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:text="click me"
+                android:id="@+id/content_provider"
+                android:textColor="#FF0000"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btn_rnd"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="25dp"
+                android:text="Intent"
+                android:textColor="#ffffff"
+                android:background="#b3fd9bcb"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_width="160dp"
+                android:layout_height="50pt"
+                android:src="@drawable/intents"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="35dp"
+                android:text="click me"
+                android:id="@+id/intent"
+                android:textColor="#FF0000"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btn_rnd"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Keluar"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+
+</ScrollView>
